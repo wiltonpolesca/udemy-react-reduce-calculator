@@ -1,0 +1,12 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    /* Montando um grid de elementos*/
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    /*Define a altura de de cada linha*/
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
